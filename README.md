@@ -115,7 +115,7 @@
                     </tr>
                     <tr>
                         <td>Виноград</td>
-                        <td><img src="maxresdefault.jpg.jpg" alt="Виноград" class="fruit-image"></td>
+                        <td><img src="maxresdefault.jpg" alt="Виноград" class="fruit-image"></td>
                         <td>300</td>
                     </tr>
                     <tr>
