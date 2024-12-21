@@ -113,22 +113,22 @@
             <h2 class="section-title">Популярные фрукты</h2>
             <div class="fruit-grid">
                 <div class="fruit-item">
-                    <img src="apple.jpg" alt="Яблоки">
+                    <img src="ae104298-a4ac-5e79-aa4b-d8a1b194f529.jpg" alt="Яблоки">
                     <h3>Яблоки</h3>
                     <p>150 ₽/кг</p>
                 </div>
                 <div class="fruit-item">
-                    <img src="banana.jpg" alt="Бананы">
+                    <img src="ш.jpg" alt="Бананы">
                     <h3>Бананы</h3>
                     <p>120 ₽/кг</p>
                 </div>
                 <div class="fruit-item">
-                    <img src="orange.jpg" alt="Апельсины">
+                    <img src="0v6wrf8a3worxnvgm5f7waoze5l2c5rh.jpg" alt="Апельсины">
                     <h3>Апельсины</h3>
                     <p>200 ₽/кг</p>
                 </div>
                 <div class="fruit-item">
-                    <img src="grape.jpg" alt="Виноград">
+                    <img src="2d8852313d8480c.jpg" alt="Виноград">
                     <h3>Виноград</h3>
                     <p>300 ₽/кг</p>
                 </div>
