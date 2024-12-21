@@ -5,24 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Город Фруктов</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             background: linear-gradient(to bottom, #ffffff, #add8e6, #dda0dd);
         }
         header {
-            background-color: #ffffff;
+            background: linear-gradient(to bottom, #ffffff, #add8e6);
             color: #333;
-            padding: 2em 0;
+            padding: 3em 0;
             text-align: center;
             border-bottom: 5px solid #add8e6;
         }
         header h1 {
-            background-color: rgba(200, 200, 255, 0.8);
+            font-size: 2.5em;
+            color: #4a148c;
+            margin-top: 20px;
             display: inline-block;
             padding: 0.5em 1em;
             border-radius: 10px;
+            background: rgba(173, 216, 230, 0.5);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         nav {
@@ -43,35 +48,25 @@
             padding: 2em;
             text-align: center;
         }
+        .section-title {
+            font-size: 2em;
+            color: #4a148c;
+            margin-bottom: 1em;
+        }
+        .hidden-table {
+            visibility: hidden;
+        }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
             padding: 1em 0;
         }
-        table {
-            margin: 2em auto;
-            border-collapse: collapse;
-            width: 80%;
-        }
-        th, td {
-            border: 1px solid #ccc;
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
-        .fruit-image {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Добро пожаловать в Город Фруктов</h1>
+        <h1>Город Фруктов</h1>
     </header>
     <nav>
         <a href="#home">Home</a>
@@ -80,15 +75,15 @@
     </nav>
     <main>
         <section id="home">
-            <h2>Home</h2>
+            <h2 class="section-title">Добро пожаловать в Город Фруктов</h2>
             <p>Добро пожаловать в "Город Фруктов" - ваш идеальный выбор для свежих и сочных фруктов каждый день!</p>
         </section>
         <section id="about">
-            <h2>About</h2>
+            <h2 class="section-title">About</h2>
             <p>"Город Фруктов" - это компания, которая предлагает широкий ассортимент свежих фруктов высочайшего качества. Мы заботимся о том, чтобы каждый клиент получил только самые вкусные и натуральные продукты. Наша миссия - сделать ваш день ярче и вкуснее!</p>
         </section>
-        <section id="fruits">
-            <h2>Популярные фрукты и цены</h2>
+        <section id="fruits" class="hidden-table">
+            <h2 class="section-title">Популярные фрукты</h2>
             <table>
                 <thead>
                     <tr>
@@ -127,7 +122,7 @@
             </table>
         </section>
         <section id="contact">
-            <h2>Contact</h2>
+            <h2 class="section-title">Contact</h2>
             <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
         </section>
     </main>
