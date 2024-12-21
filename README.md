@@ -1,5 +1,3 @@
-# gorod-fructov
-HTML сайт для Города Фруктов
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +9,7 @@ HTML сайт для Города Фруктов
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background: linear-gradient(to bottom, #ffffff, #add8e6, #dda0dd);
         }
         header {
             background-color: #333;
@@ -42,12 +40,9 @@ HTML сайт для Города Фруктов
             color: white;
             text-align: center;
             padding: 1em 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
         table {
-            margin: 0 auto;
+            margin: 2em auto;
             border-collapse: collapse;
             width: 80%;
         }
@@ -58,6 +53,11 @@ HTML сайт для Города Фруктов
         }
         th {
             background-color: #f4f4f4;
+        }
+        .fruit-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
         }
     </style>
 </head>
@@ -73,11 +73,11 @@ HTML сайт для Города Фруктов
     <main>
         <section id="home">
             <h2>Home</h2>
-            <p>Это главная страница вашего сайта. Настройте её по своему желанию!</p>
+            <p>Добро пожаловать в "Город Фруктов" - ваш идеальный выбор для свежих и сочных фруктов каждый день!</p>
         </section>
         <section id="about">
             <h2>About</h2>
-            <p>Здесь вы можете разместить информацию о себе или о проекте.</p>
+            <p>"Город Фруктов" - это компания, которая предлагает широкий ассортимент свежих фруктов высочайшего качества. Мы заботимся о том, чтобы каждый клиент получил только самые вкусные и натуральные продукты. Наша миссия - сделать ваш день ярче и вкуснее!</p>
         </section>
         <section id="fruits">
             <h2>Популярные фрукты и цены</h2>
@@ -85,28 +85,34 @@ HTML сайт для Города Фруктов
                 <thead>
                     <tr>
                         <th>Фрукт</th>
+                        <th>Фотография</th>
                         <th>Примерная цена за кг (₽)</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Яблоки</td>
+                        <td><img src="https://via.placeholder.com/100" alt="Яблоки" class="fruit-image"></td>
                         <td>150</td>
                     </tr>
                     <tr>
                         <td>Бананы</td>
+                        <td><img src="https://via.placeholder.com/100" alt="Бананы" class="fruit-image"></td>
                         <td>120</td>
                     </tr>
                     <tr>
                         <td>Апельсины</td>
+                        <td><img src="https://via.placeholder.com/100" alt="Апельсины" class="fruit-image"></td>
                         <td>200</td>
                     </tr>
                     <tr>
                         <td>Виноград</td>
+                        <td><img src="https://via.placeholder.com/100" alt="Виноград" class="fruit-image"></td>
                         <td>300</td>
                     </tr>
                     <tr>
                         <td>Клубника</td>
+                        <td><img src="https://via.placeholder.com/100" alt="Клубника" class="fruit-image"></td>
                         <td>450</td>
                     </tr>
                 </tbody>
