@@ -128,12 +128,12 @@
                     <p>200 ₽/кг</p>
                 </div>
                 <div class="fruit-item">
-                    <img src="2d8852313d8480c.jpg" alt="Виноград">
+                    <img src="maxresdefault.jpg" alt="Виноград">
                     <h3>Виноград</h3>
                     <p>300 ₽/кг</p>
                 </div>
                 <div class="fruit-item">
-                    <img src="strawberry.jpg" alt="Клубника">
+                    <img src="2d8852313d8480c.jpg" alt="Клубника">
                     <h3>Клубника</h3>
                     <p>450 ₽/кг</p>
                 </div>
