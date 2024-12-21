@@ -100,27 +100,27 @@
                 <tbody>
                     <tr>
                         <td>Яблоки</td>
-                        <td><img src="apple.jpg" alt="Яблоки" class="fruit-image"></td>
+                        <td><img src="ae104298-a4ac-5e79-aa4b-d8a1b194f529.jpg" alt="Яблоки" class="fruit-image"></td>
                         <td>150</td>
                     </tr>
                     <tr>
                         <td>Бананы</td>
-                        <td><img src="banana.jpg" alt="Бананы" class="fruit-image"></td>
+                        <td><img src="i.jpg" alt="Бананы" class="fruit-image"></td>
                         <td>120</td>
                     </tr>
                     <tr>
                         <td>Апельсины</td>
-                        <td><img src="orange.jpg" alt="Апельсины" class="fruit-image"></td>
+                        <td><img src="0v6wrf8a3worxnvgm5f7waoze5l2c5rh.jpg" alt="Апельсины" class="fruit-image"></td>
                         <td>200</td>
                     </tr>
                     <tr>
                         <td>Виноград</td>
-                        <td><img src="grape.jpg" alt="Виноград" class="fruit-image"></td>
+                        <td><img src="maxresdefault.jpg.jpg" alt="Виноград" class="fruit-image"></td>
                         <td>300</td>
                     </tr>
                     <tr>
                         <td>Клубника</td>
-                        <td><img src="strawberry.jpg" alt="Клубника" class="fruit-image"></td>
+                        <td><img src="2d8852313d8480c.jpg" alt="Клубника" class="fruit-image"></td>
                         <td>450</td>
                     </tr>
                 </tbody>
