@@ -118,7 +118,7 @@
                     <p>150 ₽/кг</p>
                 </div>
                 <div class="fruit-item">
-                    <img src="ш.jpg" alt="Бананы">
+                    <img src="i.jpg" alt="Бананы">
                     <h3>Бананы</h3>
                     <p>120 ₽/кг</p>
                 </div>
