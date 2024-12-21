@@ -12,10 +12,18 @@
             background: linear-gradient(to bottom, #ffffff, #add8e6, #dda0dd);
         }
         header {
-            background-color: #333;
-            color: white;
-            padding: 1em 0;
+            background-color: #ffffff;
+            color: #333;
+            padding: 2em 0;
             text-align: center;
+            border-bottom: 5px solid #add8e6;
+        }
+        header h1 {
+            background-color: rgba(200, 200, 255, 0.8);
+            display: inline-block;
+            padding: 0.5em 1em;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         nav {
             display: flex;
@@ -92,27 +100,27 @@
                 <tbody>
                     <tr>
                         <td>Яблоки</td>
-                        <td><img src="/mnt/data/ae104298-a4ac-5e79-aa4b-d8a1b194f529.jpg" alt="Яблоки" class="fruit-image"></td>
+                        <td><img src="apple.jpg" alt="Яблоки" class="fruit-image"></td>
                         <td>150</td>
                     </tr>
                     <tr>
                         <td>Бананы</td>
-                        <td><img src="/mnt/data/i.webp" alt="Бананы" class="fruit-image"></td>
+                        <td><img src="banana.jpg" alt="Бананы" class="fruit-image"></td>
                         <td>120</td>
                     </tr>
                     <tr>
                         <td>Апельсины</td>
-                        <td><img src="/mnt/data/0v6wrf8a3worxnvgm5f7waoze5l2c5rh.jpg" alt="Апельсины" class="fruit-image"></td>
+                        <td><img src="orange.jpg" alt="Апельсины" class="fruit-image"></td>
                         <td>200</td>
                     </tr>
                     <tr>
                         <td>Виноград</td>
-                        <td><img src="/mnt/data/maxresdefault.jpg" alt="Виноград" class="fruit-image"></td>
+                        <td><img src="grape.jpg" alt="Виноград" class="fruit-image"></td>
                         <td>300</td>
                     </tr>
                     <tr>
                         <td>Клубника</td>
-                        <td><img src="/mnt/data/2d8852313d8480c.webp" alt="Клубника" class="fruit-image"></td>
+                        <td><img src="strawberry.jpg" alt="Клубника" class="fruit-image"></td>
                         <td>450</td>
                     </tr>
                 </tbody>
